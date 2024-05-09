@@ -13,7 +13,7 @@ public class BasePage {
 		public WebDriver setUp(String browsertype) throws Exception {
 
 			if (browsertype.contains("chrome")) {
-				System.setProperty("webdriver.chrome.driver", "/Users/NaveenKhunteta/Downloads/chromedriver");
+				System.setProperty("webdriver.chrome.driver", "C:\\Users\\Codetru\\Downloads\\AzureSeleniumDemo-master\\AzureSeleniumDemo-master\\drivers\\chromedriver.exe");
 				driver = new ChromeDriver();
 			} else if (browsertype.contains("firefox")) {
 				System.setProperty("webdriver.gecko.driver", "/Users/NaveenKhunteta/Downloads/geckodriver");
